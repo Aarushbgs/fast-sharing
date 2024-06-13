@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100vw;
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}

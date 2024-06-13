@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading{
+    font-size: 3rem;
+    font-weight: 200;
+    color: gray;
+    padding: 1.25rem;
+  }
+  input[type="file"] {
+    display: none;
+  }
+  
+  .label {
+    margin-top: 2rem;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }
+  
+  .progress-container {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  progress {
+    width: 100%;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .download-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    max-width: 100%; 
+    overflow: hidden; 
+    white-space: wrap; 
+
+  }
+  .download-link:hover {
+    text-decoration: underline;
+  }
+  
